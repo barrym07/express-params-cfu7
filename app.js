@@ -21,3 +21,10 @@ app.get('/students', (req, res) => {
     res.send(students)
   }
 });
+
+//GET /students/:studentId - returns details of a specific student by student id
+app.get('/students/:studentId', (req, res) => {
+  let stu = req.params.studentId;
+  res.send(students.find(student => student.studentId === +stu))
+
+})
