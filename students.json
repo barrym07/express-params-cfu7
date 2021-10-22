@@ -1,0 +1,29 @@
+[
+  {
+    "studentId": 1,
+    "name": "John Snow",
+    "grades": {
+      "english": "B",
+      "math": "A",
+      "javascript": "B"
+    }
+  },
+  {
+    "studentId": 2,
+    "name": "Ron Weasley",
+    "grades": {
+      "english": "C",
+      "math": "B",
+      "javascript": "B"
+    }
+  },
+  {
+    "studentId": 2,
+    "name": "Harry Potter",
+    "grades": {
+      "english": "A",
+      "math": "A",
+      "javascript": "A"
+    }
+  }
+]
